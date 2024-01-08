@@ -102,3 +102,9 @@ footer {
 footer a {
   font-weight: bold;
 }
+
+#balls {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
