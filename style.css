@@ -1,18 +1,25 @@
 body {
   margin: 0;
+
   font-family: 'Open Sans', sans-serif;
+
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+
+  min-height: 100vh;
 }
 
 .page {
   width: 1000px;
-  margin: 65px auto 0;
+  margin: 0 auto;
+  padding-top: 65px;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 59px;
+
+  margin-bottom: 55px;
 }
 
 ul {
@@ -89,11 +96,9 @@ footer {
   line-height: 28px;
   text-align: center;
   margin-top: 80px;
+  margin-bottom: 30px;
 }
 
 footer a {
   font-weight: bold;
 }
-
-
-
