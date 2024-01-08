@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .page {
@@ -21,3 +22,51 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+a {
+  color: #1F1534;
+  text-decoration: none;
+}
+
+/* pseudo-class */
+ul li a:hover {
+  font-weight: bold;
+}
+
+h1, ul {
+  font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+  font-size: 49px;
+  line-height: 56px;
+  color: #1F1534;
+}
+
+h1 span {
+  color: #89C5CC;
+}
+
+p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7D7987;
+}
+
+button {
+  font-family: 'DM Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  color: #1F1534;
+}
+
+footer a {
+  font-weight: bold;
+}
+
+
+
