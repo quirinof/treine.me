@@ -63,7 +63,25 @@ section p {
 
 button {
   font-family: 'DM Sans', sans-serif;
+  color: #F9F9F9;
   text-transform: uppercase;
+
+  border-style: none;
+  background: #69B99D;
+  padding: 15px 32px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+} 
+
+button:hover {
+  background: #2c7d60;
 }
 
 footer {
